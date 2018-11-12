@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.beingmate</groupId>
+    <groupId>com.atom</groupId>
 	<artifactId>atom-tcc-parent</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -203,12 +203,7 @@
                 <artifactId>log4j-core</artifactId>
                 <version>${log4j-version}</version>
             </dependency>
-            -->
-            <dependency>
-                <groupId>com.beingmate</groupId>
-                <artifactId>tcc-trade-common</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
-            </dependency>
+            -->            
         </dependencies>
 
     </dependencyManagement>
