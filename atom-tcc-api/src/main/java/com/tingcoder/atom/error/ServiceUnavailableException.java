@@ -1,6 +1,6 @@
-package com.beingmate.tinytcc.error;
+package com.tingcoder.atom.error;
 
-import com.beingmate.tinytcc.Procedure;
+import com.tingcoder.atom.Procedure;
 import lombok.Getter;
 
 public class ServiceUnavailableException extends CoordinatorException {

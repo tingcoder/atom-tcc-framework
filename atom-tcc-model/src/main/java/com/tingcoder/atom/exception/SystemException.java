@@ -1,6 +1,6 @@
-package com.beingmate.tinytcc.exception;
+package com.tingcoder.atom.exception;
 
-import com.beingmate.tinytcc.model.ResponseInfo;
+import com.tingcoder.atom.model.ResponseInfo;
 import lombok.Getter;
 
 /***

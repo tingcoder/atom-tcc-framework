@@ -1,4 +1,4 @@
-package com.beingmate.tinytcc.error;
+package com.tingcoder.atom.error;
 
 public enum HeuristicsType {
 

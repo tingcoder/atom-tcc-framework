@@ -1,8 +1,8 @@
-package com.beingmate.tinytcc.error;
+package com.tingcoder.atom.error;
 
-import com.netease.backend.tcc.Procedure;
-import com.netease.backend.tcc.TccCode;
-import com.netease.backend.tcc.TccUtils;
+import com.tingcoder.atom.Procedure;
+import com.tingcoder.atom.TccCode;
+import com.tingcoder.atom.TccUtils;
 import lombok.Getter;
 
 public class HeuristicsException extends Exception {

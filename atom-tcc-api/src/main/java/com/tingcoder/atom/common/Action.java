@@ -1,4 +1,6 @@
-package com.beingmate.tinytcc.common;
+package com.tingcoder.atom.common;
+
+import lombok.Getter;
 
 public enum Action {
 
@@ -7,14 +9,11 @@ public enum Action {
     CANCEL(2),
     EXPIRE(3);
 
+    @Getter
     private int code;
 
     Action(int code) {
         this.code = code;
-    }
-
-    public int getCode() {
-        return code;
     }
 
     public static Action getAction(int code) {

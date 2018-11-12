@@ -1,12 +1,19 @@
+package com.tingcoder.atom;
 
-package com.beingmate.tinytcc;
-
-import com.beingmate.tinytcc.common.HeuristicsInfo;
-import com.beingmate.tinytcc.error.CoordinatorException;
+import com.tingcoder.atom.common.HeuristicsInfo;
+import com.tingcoder.atom.error.CoordinatorException;
 
 import java.util.List;
 
 public interface Coordinator {
+
+    /**
+     * 开启一个分布式事务
+     * @param sequenceId
+     * @param procedures
+     * @return 全局唯一的分布式事务ID
+     * @throws CoordinatorException
+     */
     long begin(int sequenceId, List<Procedure> procedures) throws CoordinatorException;
 
     short confirm(int sequenceId, long uuid, List<Procedure> procedures) throws CoordinatorException;

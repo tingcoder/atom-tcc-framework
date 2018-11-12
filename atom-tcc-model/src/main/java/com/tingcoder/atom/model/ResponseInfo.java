@@ -1,6 +1,6 @@
-package com.beingmate.tinytcc.model;
+package com.tingcoder.atom.model;
 
-import com.beingmate.tinytcc.exception.SystemException;
+import com.tingcoder.atom.exception.SystemException;
 import lombok.Data;
 
 import java.io.Serializable;

@@ -1,10 +1,7 @@
-package com.beingmate.tinytcc.error;
+package com.tingcoder.atom.error;
 
 public class ParticipantException extends CoordinatorException {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	
 	public ParticipantException(Throwable cause) {

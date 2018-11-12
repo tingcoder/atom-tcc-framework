@@ -1,7 +1,7 @@
-package com.beingmate.tinytcc.common;
+package com.tingcoder.atom.common;
 
 
-import com.beingmate.tinytcc.error.CoordinatorException;
+import com.tingcoder.atom.error.CoordinatorException;
 import lombok.Getter;
 
 public class IllegalActionException extends CoordinatorException {
