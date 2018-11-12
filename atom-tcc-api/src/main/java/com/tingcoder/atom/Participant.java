@@ -1,6 +1,7 @@
-package com.beingmate.tinytcc;
+package com.tingcoder.atom;
 
-import com.beingmate.tinytcc.error.ParticipantException;
+
+import com.tingcoder.atom.error.ParticipantException;
 
 public interface Participant {
 	

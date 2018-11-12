@@ -1,4 +1,4 @@
-package com.beingmate.tinytcc.common;
+package com.tingcoder.atom.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
