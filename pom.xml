@@ -18,7 +18,6 @@
     <modules>
         <module>atom-tcc-api</module>
         <module>atom-tcc-core</module>
-        <module>atom-tcc-model</module>
     </modules>
 
     <name>${project.artifactId}</name>
@@ -70,13 +69,8 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>com.beingmate</groupId>
-                <artifactId>tiny-tcc-model</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>com.beingmate</groupId>
-                <artifactId>tiny-tcc-api</artifactId>
+                <groupId>com.tingcoder</groupId>
+                <artifactId>atom-tcc-api</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
 

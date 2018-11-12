@@ -1,7 +1,6 @@
 package com.tingcoder.atom.error;
 
 public class CoordinatorException extends Exception {
-
 	private static final long serialVersionUID = -2471063501124816722L;
 	protected short code;
 	

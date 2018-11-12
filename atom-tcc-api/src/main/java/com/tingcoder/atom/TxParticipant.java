@@ -3,7 +3,7 @@ package com.tingcoder.atom;
 
 import com.tingcoder.atom.error.ParticipantException;
 
-public interface Participant {
+public interface TxParticipant {
 	
 	void cancel(Long uuid) throws ParticipantException;
 	

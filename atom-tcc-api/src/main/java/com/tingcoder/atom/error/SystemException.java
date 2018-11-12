@@ -1,4 +1,5 @@
-package com.tingcoder.atom.exception;
+package com.tingcoder.atom.error;
+
 
 import com.tingcoder.atom.model.ResponseInfo;
 import lombok.Getter;

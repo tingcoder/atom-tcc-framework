@@ -1,6 +1,6 @@
 package com.tingcoder.atom.model;
 
-import com.tingcoder.atom.exception.SystemException;
+import com.tingcoder.atom.error.SystemException;
 import lombok.Data;
 
 import java.io.Serializable;
