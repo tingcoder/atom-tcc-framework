@@ -1,5 +1,6 @@
 package com.tingcoder.atom;
 
+import com.alibaba.dubbo.config.ReferenceConfig;
 import com.tingcoder.atom.error.CoordinatorException;
 import com.tingcoder.atom.error.SystemException;
 import com.tingcoder.atom.model.TxActitity;
@@ -26,12 +27,20 @@ public class TxManager implements ApplicationContextAware, InitializingBean {
 
     private Map<Object, String> participantObjToServiceName = new HashMap<Object, String>();
 
+
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.applicationContext = applicationContext;
     }
 
     public void afterPropertiesSet() throws Exception {
         String[] beanNames = applicationContext.getBeanNamesForType(TxParticipant.class);
+
+        ReferenceConfig referenceConfig = null;
+
+        referenceConfig.getVersion();
+        referenceConfig.getInterfaceClass();
+        referenceConfig.getGroup();
+
         for (String beanName : beanNames) {
             Object participant = applicationContext.getBean(beanName);
             Class participantClass = participant.getClass();
