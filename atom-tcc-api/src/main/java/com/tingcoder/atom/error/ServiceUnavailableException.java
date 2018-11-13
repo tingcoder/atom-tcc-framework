@@ -11,7 +11,7 @@ public class ServiceUnavailableException extends CoordinatorException {
 
     public ServiceUnavailableException(Procedure proc, long uuid) {
         super(new StringBuilder().append("service ")
-                .append(proc.getService()).append(" is not available,uuid ").append(uuid).toString());
+                .append(proc.getService()).append(" is not available,txId ").append(uuid).toString());
         this.proc = proc;
     }
 }
